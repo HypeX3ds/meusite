@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Lato:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+
+body{
+    height: 100%;
+    background-color: #202020;
+    background-image: url();
+    background-size: auto; /* Isso faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página (opcional) */
+    background-position: center; /* Centraliza a imagem na tela */
+}
+
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0px 40px 1%;
+    box-shadow: 5px 0 0 #0004ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
+    transition: 0.5s;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: #0004ff;
+}
+
+ul li.item-menu:hover{
+    border-radius: 15px;
+    background: #0004ff;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i{
+    margin-left: 6px;
+    font-size: 35px
+}
+
+
+.texto{
+    width: 650px;
+    margin-left: 51%;
+    margin-top: -37%;
+    font-size: larger;
+    color: #000000;
+    font-weight: bold;
+    font-size: 23px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Família da fonte */
+
+}
+
+.avatar {
+    width: 450px; /* Largura da caixa */
+    height: 300px; /* Altura da caixa */
+    background-image: url('img/avatar.png'); /* URL da imagem que você deseja usar */
+    background-size: 450px; /* Ajusta o tamanho da imagem para preencher a caixa */
+    background-repeat: no-repeat;
+    background-position: b; /* Centraliza a imagem na caixa */
+    margin-left: 400px;
+    margin-top: 400px;
+}
+
+.box {
+    height: 00px;
+    width: 44%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    margin-right: 200px;
+    margin-top: -450px;
+    padding: 350px;
+    border-radius: 30px;
+    box-shadow: 44px 44px 6px rgba(0, 0, 0, 0.349);
+}
