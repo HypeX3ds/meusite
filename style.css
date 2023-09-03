@@ -111,7 +111,7 @@ ul li.item-menu a .icon > i{
 .avatar {
     width: 450px; /* Largura da caixa */
     height: 300px; /* Altura da caixa */
-    background-image: url('img/avatar.png'); /* URL da imagem que você deseja usar */
+    background-image: url('avatar.png'); /* URL da imagem que você deseja usar */
     background-size: 450px; /* Ajusta o tamanho da imagem para preencher a caixa */
     background-repeat: no-repeat;
     background-position: b; /* Centraliza a imagem na caixa */
