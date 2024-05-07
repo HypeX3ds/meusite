@@ -13,10 +13,10 @@ body{
     height: 100%;
     background-color: #202020;
     background-image: url();
-    background-size: auto; /* Isso faz a imagem cobrir toda a tela */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página (opcional) */
-    background-position: center; /* Centraliza a imagem na tela */
+    background-size: auto;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
 }
 
 
@@ -103,18 +103,18 @@ ul li.item-menu a .icon > i{
     font-size: larger;
     color: #000000;
     font-weight: bold;
-    font-size: 23px; /* Tamanho da fonte */
-    font-family: Arial, sans-serif; /* Família da fonte */
+    font-size: 23px;
+    font-family: Arial, sans-serif;
 
 }
 
 .avatar {
     width: 450px; /* Largura da caixa */
     height: 300px; /* Altura da caixa */
-    background-image: url('avatar.png'); /* URL da imagem que você deseja usar */
-    background-size: 450px; /* Ajusta o tamanho da imagem para preencher a caixa */
+    background-image: url('avatar.png');
+    background-size: 450px;
     background-repeat: no-repeat;
-    background-position: b; /* Centraliza a imagem na caixa */
+    background-position: b;
     margin-left: 400px;
     margin-top: 400px;
 }
